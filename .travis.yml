@@ -1,3 +1,4 @@
+service_name: travis-ci
 language: node_js
 node_js:
   - "node"
