@@ -2,7 +2,6 @@ service_name: travis-ci
 language: node_js
 node_js:
   - "node"
-  - "iojs"
   - "lts/*"
   - "8"
   - "7"
