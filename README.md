@@ -1,10 +1,7 @@
 # plivo-node
 
-[![Build Status](https://travis-ci.org/plivo/plivo-node.svg?branch=4.0)](https://travis-ci.org/plivo/plivo-node)
-[![PyPI](https://img.shields.io/pypi/v/plivo.svg)](https://pypi.python.org/pypi/plivo)
-[![PyPI](https://img.shields.io/pypi/pyversions/plivo.svg)](https://pypi.python.org/pypi/plivo)
-[![PyPI](https://img.shields.io/pypi/l/plivo.svg)](https://pypi.python.org/pypi/plivo)
-
+[![Build Status](https://secure.travis-ci.org/plivo/plivo-node.png?branch=master)](http://travis-ci.org/plivo/plivo-node)
+[![NPM version](https://badge.fury.io/js/plivo-node.png)](http://badge.fury.io/js/plivo-node)  
 
 The Node SDK makes it simpler to integrate communications into your Node applications using the Plivo REST API. Using the SDK, you will be able to make voice calls, send SMS and generate Plivo XML to control your call flows.
 
