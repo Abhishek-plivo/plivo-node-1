@@ -1,7 +1,5 @@
 # plivo-node
 
-[![Build Status](https://secure.travis-ci.org/plivo/plivo-node.png?branch=master)](http://travis-ci.org/plivo/plivo-node)
-[![NPM version](https://badge.fury.io/js/plivo-node.png)](http://badge.fury.io/js/plivo-node)  
 
 The Node SDK makes it simpler to integrate communications into your Node applications using the Plivo REST API. Using the SDK, you will be able to make voice calls, send SMS and generate Plivo XML to control your call flows.
 
@@ -24,22 +22,12 @@ let plivo = require('plivo');
 
 let client = new plivo.Client();
 ```
-Alternatively, you can specifiy the authentication credentials while initializing the `RestClient`.
+Alternatively, you can specifiy the authentication credentials while initializing the `Client`.
 
 ```javascript
 let plivo = require('plivo');
 
 let client = new plivo.Client('PLIVO_AUTH_ID', 'PLIVO_AUTH_TOKEN');
-```
-
-If you expect to make a large number of API requests, re-use the same client instance, but if you expect to create a client on an on-demand basis, you can use a context manager to automatically frees all resources used by the client
-
-```javascript
-let plivo = require('plivo');
-
-// with plivo.RestClient() as client:
-//   pass # Do something with the client
-
 ```
 
 ### The basics
