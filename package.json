@@ -51,6 +51,10 @@
     "lodash": "^4.17.4",
     "querystring": "^0.2.0",
     "request": "^2.81.0",
-    "xmlbuilder": "^9.0.1"
+    "xmlbuilder": "^9.0.1",
+    "base-64": "^0.1.0",
+    "build-url": "^1.0.10",
+    "uri-parser": "^1.0.0",
+    "utf8": "^2.1.2"
   }
 }
